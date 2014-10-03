@@ -1,0 +1,31 @@
+
+.container {
+  margin: 10px auto;
+  width: 900px;
+  text-align: center;
+}
+
+.heading {
+  text-align: center;
+  font-family: Arial;
+  font-size: 50px;
+}
+#message {
+  font-family: Arial;
+  font-size: 35px;
+}
+table {
+  margin: auto;
+}
+
+.box_cell {
+  border: 1px solid black;
+  width: 150px;
+  height: 150px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+#reset {
+  padding: 20px;
+}
