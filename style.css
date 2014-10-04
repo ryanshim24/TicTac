@@ -1,7 +1,5 @@
 
 .container {
-  margin: 10px auto;
-  width: 900px;
   text-align: center;
 }
 
@@ -13,6 +11,7 @@
 #message {
   font-family: Arial;
   font-size: 35px;
+
 }
 table {
   margin: auto;

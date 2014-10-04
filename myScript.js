@@ -1,6 +1,6 @@
 // Tell's the user whose turn it is.
-var turn= "X"; //Varialbe called document because its an HTML document. 
-var winner = 0;// Varaible to determine who's won the game. Just set it to 0
+var turn= "X"; 
+var winner = 0;
 
 function startGame(){ 
   setMessage(turn + " starts first");
