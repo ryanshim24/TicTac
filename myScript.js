@@ -76,7 +76,7 @@ function getBox(number) {
 }
 
 function clearBox() { //My Reset button
-  var boxes = document.querySelectorAll("td.box_cell");//Puts the information of the boxes into an array.
+  var boxes = document.querySelectorAll("td");//Puts the information of the boxes into an array.
   for (i =0; i<boxes.length; i++) {
     boxes[i].innerText = ""; // Loop goes through each box and and makes the text back to empty
   }
