@@ -36,6 +36,42 @@ td {
   margin-bottom: 10px;
 }
 
+#s1 {
+  border-top: 0;
+  border-left: 0;
+}
+
+#s2 {
+  border-top: 0;
+}
+
+#s3 {
+  border-top: 0;
+  border-right: 0;
+}
+
+#s4 {
+  border-left: 0;
+}
+
+#s6 {
+  border-right: 0;
+}
+
+#s7 {
+  border-bottom: 0;
+  border-left: 0;
+}
+
+#s8 {
+  border-bottom: 0;
+}
+
+#s9 {
+  border-right: 0;
+  border-bottom: 0;
+}
+
 
 .animated { 
     -webkit-animation-duration: 1s; 
