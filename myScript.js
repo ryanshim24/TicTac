@@ -80,14 +80,14 @@ function clearBox() { //My Reset button
   for (i =0; i<boxes.length; i++) {
     boxes[i].innerText = ""; // Loop goes through each box and and makes the text back to empty
   }
-  intialize(); //restarts the program back to the Start.
+  intialize();
 }
 
 
 function intialize() {
   startGame();
   thisClick();
-
+  document.getElementById("reset").addEventListener("click", clearBox);
 }
 
 window.onload = intialize;

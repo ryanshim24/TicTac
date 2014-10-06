@@ -3,41 +3,50 @@
 <head>
   <meta charset="UTF-8">
   <title>TicTacToe</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
   <div class="container">
-    <h1 class="heading" >Tic! Tac! Toe!</h1>
+    <div id="animated-example" class="animated fadeInDown">
+      <h1 class="heading" >Tic! Tac! Toe!</h1>
+    </div>
     <div id="message">message will go here</div>
     <br>
-    <table>
+    <table id="animated-example" class="animated fadeInDown" "table">
       <tbody>
         <tr class="box_row" > <!-- When we pass in this onto nextMove, we get the current tag and gives it a parameter of the function. -->
-          <td id="s1" ></td> 
+          <td id="s1"></td> 
 
           <td id="s2"></td>
 
           <td id="s3"></td>
         </tr>
         <tr class="box_row">
-          <td id="s4""></td>
+          <td id="s4"></td>
 
-          <td id="s5""></td>
+          <td id="s5"></td>
 
-          <td id="s6""></td>
+          <td id="s6"></td>
         </tr>
         <tr class="box_row">
-          <td id="s7""></td>
+          <td id="s7"></td>
 
-          <td id="s8""></td>
+          <td id="s8"></td>
 
-          <td id="s9""></td>
+          <td id="s9"></td>
         </tr>
       </tbody>
     </table>
     <br>
-    <button type="submit" id="reset" onclick="clearBox()">Reset</button>
+    <button type="submit" id="reset">Restart</button>
   </div>
   <script src="myScript.js"></script>
 </body>

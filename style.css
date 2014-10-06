@@ -1,30 +1,74 @@
+body {
+  background-color: black;
+}
+
 
 .container {
   text-align: center;
+  margin: auto;
 }
 
 .heading {
-  text-align: center;
   font-family: Arial;
   font-size: 50px;
+  color: white;
 }
 #message {
   font-family: Arial;
   font-size: 35px;
-
+  color: white;
 }
 table {
   margin: auto;
 }
 
 td {
-  border: 1px solid black;
+  border: 2px solid #3E3E3E;
   width: 150px;
   height: 150px;
   font-size: 50px;
   font-weight: bold;
+  color: white;
 }
 
 #reset {
-  padding: 20px;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+
+.animated { 
+    -webkit-animation-duration: 1s; 
+    animation-duration: 1s; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
+    -webkit-animation-timing-function: ease-in; 
+    animation-timing-function: ease-in; 
+} 
+
+@-webkit-keyframes fadeInDown { 
+    0% { 
+        opacity: 0; 
+        -webkit-transform: translateY(-20px); 
+    } 
+    100% { 
+        opacity: 1; 
+        -webkit-transform: translateY(0); 
+    } 
+} 
+
+@keyframes fadeInDown { 
+    0% { 
+        opacity: 0; 
+        transform: translateY(-20px); 
+    } 
+    100% { 
+        opacity: 1; 
+        transform: translateY(0); 
+    } 
+} 
+
+.fadeInDown { 
+    -webkit-animation-name: fadeInDown; 
+    animation-name: fadeInDown; 
 }
